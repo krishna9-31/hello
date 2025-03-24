@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Personal and Crop Details</title>
+<style>
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('cart.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: rgba(248, 248, 248, 0.9); /* Light gray container with transparency */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 30px;
+}
+
+.personal-details {
+  width: 300px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-icon {
+  width: 80px;
+  height: 80px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: #fff;
+}
+
+.profile-info p {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-left: 2px solid #4caf50; /* Green accent */
+}
+
+.crop-details {
+  flex-grow: 1;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+}
+
+.crop-item {
+  border: 1px solid #eee;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.crop-image {
+  width: 60px;
+  margin-right: 15px;
+}
+
+.crop-info {
+  flex-grow: 1;
+}
+
+.crop-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.crop-progress {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: #777;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+h2 {
+  color: #333;
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="personal-details">
+    <div class="profile-header">
+      <h2>MY PROFILE</h2>
+      <div class="profile-icon">👤</div>
+    </div>
+    <div class="profile-info">
+      <p>NAME : BREKLEY</p>
+      <p>PHONE NO : 17469649801</p>
+      <p>LOCATION : Narsipatnam</p>
+    </div>
+  </div>
+
+  <div class="crop-details">
+    <h2>CROP DETAILS</h2>
+    <div class="crop-item">
+      <div style="display: flex; align-items: center;">
+        <img src="cart2.jpg" alt="Green Chillies" class="crop-image">
+        <div class="crop-info">
+          <h3 class="crop-name">Green Chillies</h3>
+          <div>Intial Crop : 100 grms</div>
+          <div>Sold : 50gms</div>
+        </div>
+      </div>
+      <div class="crop-progress">50/100</div>
+      <button class="close-button">X</button>
+    </div>
+
+    <div class="crop-item">
+      <div style="display: flex; align-items: center;">
+        <img src="cart2.jpg" alt="Green Chillies" class="crop-image">
+        <div class="crop-info">
+          <h3 class="crop-name">Green Chillies</h3>
+          <div>Intial Crop : 100 grms</div>
+          <div>Sold : 50gms</div>
+        </div>
+      </div>
+      <div class="crop-progress">50/100</div>
+      <button class="close-button">X</button>
+    </div>
+
+    <div class="crop-item">
+      <div style="display: flex; align-items: center;">
+        <img src="cart2.jpg" alt="Green Chillies" class="crop-image">
+        <div class="crop-info">
+          <h3 class="crop-name">Green Chillies</h3>
+          <div>Intial Crop : 100 grms</div>
+          <div>Sold : 50gms</div>
+        </div>
+      </div>
+      <div class="crop-progress">50/100</div>
+      <button class="close-button">X</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
